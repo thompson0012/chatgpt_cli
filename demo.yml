@@ -1,0 +1,265 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/kinshingwong/Documents/GitHub/chatgpt_cli
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 123
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 45
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 441
+    content: "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\n\e[?1034hKindeiMac:chatgpt_cli kinshingwong$ "
+  - delay: 915
+    content: c
+  - delay: 137
+    content: h
+  - delay: 65
+    content: a
+  - delay: 180
+    content: t
+  - delay: 169
+    content: g
+  - delay: 146
+    content: p
+  - delay: 101
+    content: t
+  - delay: 226
+    content: "\r\n"
+  - delay: 394
+    content: "Welcome to the GPT-3.5 chatbot!\r\nYou: : "
+  - delay: 753
+    content: h
+  - delay: 135
+    content: i
+  - delay: 146
+    content: ' '
+  - delay: 248
+    content: c
+  - delay: 113
+    content: h
+  - delay: 66
+    content: a
+  - delay: 147
+    content: t
+  - delay: 191
+    content: g
+  - delay: 113
+    content: p
+  - delay: 90
+    content: t
+  - delay: 236
+    content: "\r\n"
+  - delay: 1244
+    content: "ChatGPT: \r\n\r\nHello! How can I assist you today?\r\nYou: : "
+  - delay: 6836
+    content: h
+  - delay: 122
+    content: o
+  - delay: 67
+    content: w
+  - delay: 101
+    content: ' '
+  - delay: 146
+    content: c
+  - delay: 113
+    content: a
+  - delay: 79
+    content: 'n'
+  - delay: 135
+    content: ' '
+  - delay: 78
+    content: i
+  - delay: 125
+    content: ' '
+  - delay: 878
+    content: u
+  - delay: 66
+    content: s
+  - delay: 259
+    content: e
+  - delay: 258
+    content: ' '
+  - delay: 1430
+    content: "\b \b"
+  - delay: 168
+    content: "\b \b"
+  - delay: 192
+    content: "\b \b"
+  - delay: 506
+    content: t
+  - delay: 473
+    content: i
+  - delay: 145
+    content: l
+  - delay: 102
+    content: i
+  - delay: 179
+    content: z
+  - delay: 159
+    content: e
+  - delay: 269
+    content: ' '
+  - delay: 225
+    content: c
+  - delay: 68
+    content: h
+  - delay: 89
+    content: a
+  - delay: 158
+    content: t
+  - delay: 192
+    content: g
+  - delay: 180
+    content: p
+  - delay: 34
+    content: t
+  - delay: 101
+    content: ' '
+  - delay: 123
+    content: f
+  - delay: 157
+    content: o
+  - delay: 68
+    content: r
+  - delay: 79
+    content: ' '
+  - delay: 394
+    content: m
+  - delay: 168
+    content: 'y'
+  - delay: 169
+    content: ' '
+  - delay: 214
+    content: d
+  - delay: 67
+    content: a
+  - delay: 135
+    content: i
+  - delay: 147
+    content: l
+  - delay: 90
+    content: 'y'
+  - delay: 125
+    content: ' '
+  - delay: 213
+    content: w
+  - delay: 123
+    content: o
+  - delay: 191
+    content: r
+  - delay: 720
+    content: k
+  - delay: 1092
+    content: "\r\n"
+  - delay: 5823
+    content: "ChatGPT: As an AI language model, ChatGPT can assist you in many ways for your daily work.\r\n\r\n1. Language Learning: You can improve your language skills by chatting with me. You can ask me any word meanings, sentence structure and practice your communication skills.\r\n\r\n2. Information Seeking: ChatGPT can be used for information-seeking tasks. If you have any doubts on a topic, you can ask me to provide you with the necessary information quickly.\r\n\r\n3. Time Management: You can use ChatGPT to set reminders, alarms for important tasks. For example, you can ask me to remind you of a meeting or a deadline.\r\n\r\n4. Personal Assistance: ChatGPT can be used as a personal assistant. You can ask me to schedule appointments, book reservations or even check the weather.\r\n\r\n5. Assistance with Writing: If you are a writer, you can use ChatGPT for brainstorming and getting new ideas. You can also ask me to check your grammar, spelling, and sentence structure.\r\n\r\nOverall, ChatGPT can be a powerful tool to assist you in your daily work.\r\nYou: : "
+  - delay: 3976
+    content: "^D\b\bAborted!\r\n"
+  - delay: 39
+    content: 'KindeiMac:chatgpt_cli kinshingwong$ '
+  - delay: 2504
+    content: "logout\r\n"
